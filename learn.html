@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    HTML Form
+
+
+    <form id="jobApplicationForm">
+      <label>Name:</label>
+      <input type="text" id="name" name="name"><br><br>
+      <label>Educational Qualification:</label>
+      <select id="qualification" name="qualification">
+        <option value="">Select</option>
+        <option value="SSC">SSC</option>
+        <option value="Inter">Inter</option>
+        <option value="Degree">Degree</option>
+      </select><br><br>
+      <label>Gender:</label>
+      <input type="radio" id="male" name="gender" value="Male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="Female">
+      <label for="female">Female</label><br><br>
+      <label>Apply for:</label>
+      <select id="position" name="position">
+        <option value="">Select</option>
+        <option value="Analyst">Analyst</option>
+        <option value="Developer">Developer</option>
+        <option value="Administrator">Administrator</option>
+        <option value="Data Scientist">Data Scientist</option>
+      </select><br><br>
+      <input type="button" value="Submit" onclick="validateForm()">
+    </form>
+    
+    <div id="errorMessages"></div>
+     
+    
+    
+    
+    
+</body>
+</html>
